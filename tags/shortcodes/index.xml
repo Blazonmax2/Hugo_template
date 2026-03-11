@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Shortcodes on Hugo Theme Stack</title><link>https://demo.stack.cai.im/tags/shortcodes/</link><description>Recent content in Shortcodes on Hugo Theme Stack</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 26 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.stack.cai.im/tags/shortcodes/index.xml" rel="self" type="application/rss+xml"/><item><title>Shortcodes</title><link>https://demo.stack.cai.im/p/shortcodes/</link><pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate><guid>https://demo.stack.cai.im/p/shortcodes/</guid><description>&lt;p&gt;Stack theme also provides some custom shortcodes to enhance your content.&lt;/p&gt;
+&lt;h2 id="quote"&gt;Quote
+&lt;/h2&gt;&lt;p&gt;The &lt;code&gt;quote&lt;/code&gt; shortcode allows you to display a quote with an author, source, and URL.&lt;/p&gt;
+&lt;blockquote&gt;
+ &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;&lt;span class="cite"&gt;&lt;span&gt;― &lt;/span&gt;&lt;span&gt;A famous person, &lt;/span&gt;&lt;a href="https://en.wikipedia.org/wiki/Book"&gt;&lt;cite&gt;The book they wrote&lt;/cite&gt;&lt;/a&gt;&lt;/span&gt;&lt;/blockquote&gt;
+&lt;h3 id="usage"&gt;Usage
+&lt;/h3&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{&amp;lt; quote author=&amp;#34;Author Name&amp;#34; source=&amp;#34;Source Title&amp;#34; url=&amp;#34;https://example.com&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Quote content here.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{&amp;lt; /quote &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="video"&gt;Video
+&lt;/h2&gt;&lt;p&gt;The &lt;code&gt;video&lt;/code&gt; shortcode allows you to embed self-hosted or remote video files.&lt;/p&gt;
+&lt;div class="video-wrapper"&gt;
+ &lt;video
+ controls
+ src="https://www.w3schools.com/html/mov_bbb.mp4"
+ 
+ 
+ 
+ &gt;
+ &lt;p&gt;
+ Your browser doesn't support HTML5 video. Here is a
+ &lt;a href="https://www.w3schools.com/html/mov_bbb.mp4"&gt;link to the video&lt;/a&gt; instead.
+ &lt;/p&gt;
+ &lt;/video&gt;
+&lt;/div&gt;
+
+&lt;h3 id="usage-1"&gt;Usage
+&lt;/h3&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{&amp;lt; video src=&amp;#34;https://example.com/video.mp4&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="bilibili"&gt;Bilibili
+&lt;/h2&gt;&lt;p&gt;Embed videos from Bilibili. Supports both &lt;code&gt;av&lt;/code&gt; and &lt;code&gt;bv&lt;/code&gt; IDs.&lt;/p&gt;
+
+
+
+
+
+
+ 
+
+
+&lt;div class="video-wrapper"&gt;
+ &lt;iframe src="https://player.bilibili.com/player.html?as_wide=1&amp;amp;high_quality=1&amp;amp;page=1&amp;bvid=BV1634y1t7xR"
+ scrolling="no"
+ frameborder="no"
+ framespacing="0"
+ allowfullscreen="true"
+ &gt;
+ &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id="usage-2"&gt;Usage
+&lt;/h3&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{&amp;lt; bilibili &amp;#34;BV1634y1t7xR&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="youtube"&gt;YouTube
+&lt;/h2&gt;&lt;p&gt;Hugo&amp;rsquo;s built-in YouTube shortcode.&lt;/p&gt;
+&lt;div class="video-wrapper"&gt;
+ &lt;iframe loading="lazy" 
+ src="https://www.youtube.com/embed/ZJthWmvUzzc" 
+ allowfullscreen 
+ title="YouTube Video"
+ &gt;
+ &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id="usage-3"&gt;Usage
+&lt;/h3&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{&amp;lt; youtube ZJthWmvUzzc &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="tencent-video"&gt;Tencent Video
+&lt;/h2&gt;&lt;p&gt;Embed videos from Tencent Video.&lt;/p&gt;
+
+&lt;div class="video-wrapper"&gt;
+ &lt;iframe src="https://v.qq.com/txp/iframe/player.html?vid=u00306ng962&amp;auto=0" 
+ scrolling="no" 
+ frameborder="no"
+ framespacing="0" 
+ allowfullscreen="true"
+ &gt;
+ &lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h3 id="usage-4"&gt;Usage
+&lt;/h3&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{&amp;lt; tencent &amp;#34;u00306ng962&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="gitlab-snippet"&gt;GitLab Snippet
+&lt;/h2&gt;&lt;p&gt;Embed snippets from GitLab.&lt;/p&gt;
+&lt;script
+ type="application/javascript"
+ src="https://gitlab.com/-/snippets/2349278.js"
+&gt;&lt;/script&gt;
+&lt;h3 id="usage-5"&gt;Usage
+&lt;/h3&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{&amp;lt; gitlab 2349278 &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="diagrams"&gt;Diagrams
+&lt;/h2&gt;&lt;p&gt;Stack supports &lt;a class="link" href="https://mermaid.js.org/" target="_blank" rel="noopener"
+ &gt;Mermaid&lt;/a&gt; diagrams out of the box.&lt;/p&gt;
+&lt;pre class="mermaid" style="visibility:hidden"&gt;graph TD;
+ A--&gt;B;
+ A--&gt;C;
+ B--&gt;D;
+ C--&gt;D;&lt;/pre&gt;&lt;h3 id="usage-6"&gt;Usage
+&lt;/h3&gt;&lt;p&gt;Wrap your Mermaid code in a code block with the language set to &lt;code&gt;mermaid&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+graph TD;
+ A--&gt;B;
+ A--&gt;C;
+ B--&gt;D;
+ C--&gt;D;
+```&lt;/code&gt;&lt;/pre&gt;</description></item></channel></rss>
