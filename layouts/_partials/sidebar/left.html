@@ -27,6 +27,24 @@
             <h1 class="site-name"><a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a></h1>
             <h2 class="site-description">{{ .Site.Params.sidebar.subtitle }}</h2>
         </div>
+
+        <div class="auth-section">
+            <button id="auth-login-button" class="auth-button auth-button--primary">
+                {{ T "login" | default "Log in" }}
+            </button>
+
+            <div id="auth-user-panel" class="auth-user-panel auth-hidden">
+                <div class="auth-user-panel__text">
+                    <span class="auth-user-panel__label">
+                        {{ T "welcome" | default "Welcome" }},
+                    </span>
+                    <span id="auth-username" class="auth-user-panel__name"></span>
+                </div>
+                <button id="auth-logout-button" class="auth-button auth-button--secondary">
+                    {{ T "logout" | default "Log out" }}
+                </button>
+            </div>
+        </div>
     </header>
 
     {{- with .Site.Menus.social -}}
